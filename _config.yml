@@ -109,6 +109,9 @@ collections:
   # courses:
   #   output: true
   #   permalink: /courses/:path/
+  posts:
+    output: true
+    permalink: /posts/:path/
 
 news_limit: 15
 
@@ -138,7 +141,6 @@ exclude:
   - Gemfile.lock
   - vendor
   - trash
-  - _posts
 keep_files:
   - CNAME
   - .nojekyll
