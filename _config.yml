@@ -2,13 +2,13 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Søren Knudsen, PhD, MSc Eng.
-first_name: Søren
+title: Human-Centered Data Science @ IT University of Copenhagen
+first_name: Human-Centered
 middle_name:
-last_name: Knudsen
-email: soekn@itu.dk
+last_name: Data Science
+#email: soekn@itu.dk
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Academic site for Søren Knudsen. Assistant Professor at the Digital Design Department, IT University of Copenhagen.
+  Academic site for the Human-Centered Data Science research group at the Digital Design Department, IT University of Copenhagen.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
