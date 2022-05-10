@@ -27,17 +27,23 @@ The Human-Centered Data Science research group (HCDS) focuses on the human facto
   *Associate Professor*  
   lucr@itu.dk
 
+{% include figure image_path="/assets/img/posts/profile-photos/luca.jpg" alt="Photo of Luca Rossi" %}
+
 Luca Rossi’s research connects media and communication studies with computational approaches. He explores how digital technologies and social media impact complex social processes such as participation, activism, politics and, more recently, information propagation.
 
 **Søren Knudsen**  
 *Assistant Professor*  
 soekn@itu.dk
 
+{% include figure image_path="/assets/img/posts/profile-photos/soren.jpg" alt="Photo of Søren Knudsen" %}
+
 Søren Knudsen’s research focuses on information visualization and human-computer interaction. He is interested in supporting people in understanding, making sense of, and discussing data in face-to-face and online contexts, for example supported by large or multiple displays and social media.
 
 **Aske Mottelson**  
 *Assistant Professor*  
 asmo@itu.dk
+
+{% include figure image_path="/assets/img/posts/profile-photos/aske-bw2.jpg" alt="Photo of Aske Mottelson" %}
 
 Aske Mottelson’s research is in the intersection between psychology and data science. Aske conducts experiments and employs methods from statistical analysis and behavioral modeling to expand our understanding of humans through the use of technology. Aske is currently interested in (among other things) affective computing, sensing techniques, and virtual reality.
 
@@ -46,5 +52,7 @@ Aske Mottelson’s research is in the intersection between psychology and data s
 **Öykü Yilmaz**  
 *Master student*  
 oeyi@itu.dk
+
+{% include figure image_path="/assets/img/posts/profile-photos/oyku.jpg" alt="Photo of Öykü Yilmaz" %}
 
 Öykü Yilmaz is a MSc Student in Software Design. She is designing a prototype to improve the self-awareness of Twitter users by visualizing the consequences of their actions when sharing or retweeting a post. The project build on mixed methods and aims both at measuring the actual users’ understanding of the consequences of their network behavior as well as testing several visualization strategies to improve it.
