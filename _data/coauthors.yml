@@ -1,14 +1,8 @@
-Aske:
-  - firstname: ["Aske", "A."]
-  - lastname: ["Mottelson"]
-  - url: https://en.wikipedia.org/wiki/Nathan_Rosen
-
 Mottelson:
   - firstname: ["Aske", "A."]
-  - lastname: ["Mottelson"]
-  - url: https://en.wikipedia.org/wiki/Nathan_Rosen
+    url: https://en.wikipedia.org/wiki/Nathan_Rosen
 
-Luca: 
+Rossi: 
   - firstname: ["Luca", "L."]
-  - url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
 
