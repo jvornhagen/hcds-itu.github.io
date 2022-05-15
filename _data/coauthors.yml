@@ -1,8 +1,8 @@
-"Aske":
-  - firstname: ["Aske", "A."]
+Aske:
+#  - firstname: ["Aske", "A."]
     url: https://en.wikipedia.org/wiki/Nathan_Rosen
 
-"Luca": 
-  - firstname: ["Luca", "L."]
+Luca: 
+#  - firstname: ["Luca", "L."]
     url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
 
