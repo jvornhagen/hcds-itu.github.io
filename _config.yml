@@ -103,9 +103,9 @@ collections:
   # projects:
   #   output: true
   #   permalink: /projects/:path/
-  # topics:
-  #   output: true
-  #   permalink: /topics/:path/
+  people:
+    output: true
+    permalink: /people/:path/
   # courses:
   #   output: true
   #   permalink: /courses/:path/
@@ -114,6 +114,7 @@ collections:
     permalink: /posts/:path/
 
 news_limit: 15
+people_limit: 15
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -193,8 +194,8 @@ jekyll-archives:
 scholar:
   style: apa
 
-  last_name: Knudsen
-  first_name: [Søren, S., Soren]
+  last_name: John
+  first_name: [Doe, D.]
 
   locale: en
 

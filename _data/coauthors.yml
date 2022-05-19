@@ -2,7 +2,10 @@ Mottelson:
   - firstname: ["Aske", "A."]
     url: /people/mottelson
 
-Rossi: 
+Rossi:
   - firstname: ["Luca", "L."]
     url: /people/rossi
 
+Knudsen:
+  - firstname: ["Søren", "S."]
+    url: /people/knudsen

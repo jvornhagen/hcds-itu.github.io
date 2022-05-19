@@ -33,6 +33,10 @@ layout: default
       {{ content }}
     </div>
 
+    {% if page.people %}
+      {% include people.html %}
+    {% endif %}
+
     {% if page.news %}
       {% include news.html %}
     {% endif %}
