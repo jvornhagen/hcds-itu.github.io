@@ -1,7 +1,26 @@
 <div class="People">
-  <h2>People</h2>
+  <h1>People</h1>
   {% if site.people  %}
-    <div class="table-responsive">
+    <div class="container">
+      {% assign people = site.people %}
+      {% for person in people limit: site.people_limit %}
+        {% assign remainder = forloop.index | modulo: 3 %}
+        {% if forloop.first == true %}
+          <div class="row">
+        {% elsif remainder == 3 %}
+          </div>
+          <div class="row">
+        {% endif %}
+
+        {% include person.html %}
+
+        {% if forloop.last %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <!-- <div class="table-responsive">
       <table class="table table-sm table-borderless">
       {% assign people = site.people | reverse %}
       {% for item in people limit: site.people_limit %}
@@ -17,7 +36,7 @@
         </tr>
       {% endfor %}
       </table>
-    </div>
+    </div> -->
   {% else %}
     <p>No people so far...</p>
   {% endif %}
