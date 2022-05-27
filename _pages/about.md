@@ -15,7 +15,7 @@ order: 10
 
 news: true  # includes a list of news items
 people: false  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+select_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
