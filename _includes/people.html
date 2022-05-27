@@ -1,5 +1,5 @@
 <div class="People">
-  {% assign people = site.people | where: "group", "Faculty" | sort: "start" %}
+  {% assign people = site.people | where: "group", "Faculty" | sort: "started" %}
   {% if people.size != 0 %}
   <h2>Faculty</h2>
     <div class="container">
@@ -24,7 +24,7 @@
     <p>No faculty so far...</p>
   {% endif %}
 
-  {% assign people = site.people | where: "group", "PhD" | sort: "start" %}
+  {% assign people = site.people | where: "group", "PhD" | sort: "started" %}
   {% if people.size != 0 %}
   <h2>PhD Students</h2>
     <div class="container">
@@ -46,7 +46,7 @@
     </div>
   {% endif %}
 
-  {% assign people = site.people | where: "group", "MSc" | sort: "start" %}
+  {% assign people = site.people | where: "group", "MSc" | sort: "started" %}
   {% if people.size != 0 %}
   <h2>MSc Students</h2>
     <div class="container">
@@ -68,7 +68,7 @@
     </div>
   {% endif %}
 
-  {% assign people = site.people | where: "group", "BSc" | sort: "start" %}
+  {% assign people = site.people | where: "group", "BSc" | sort: "started" %}
   {% if people.size != 0 %}
   <h2>BSc Students</h2>
     <div class="container">
@@ -90,7 +90,7 @@
     </div>
   {% endif %}
 
-  {% assign people = site.people | where: "status", "Alumni" | sort: "end" %}
+  {% assign people = site.people | where: "status", "Alumni" | sort: "left" %}
   {% if people.size != 0 %}
   <h2>Alumni</h2>
     <div class="container">
