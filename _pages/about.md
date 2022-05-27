@@ -28,7 +28,7 @@ Our research aims to contribute to often overlooked human-centered dimensions of
   <h1>Faculty</h1>
   {% if site.people  %}
     <div class="container">
-      {% assign people = site.people | where: "group", "Faculty" | sort: "start" %}
+      {% assign people = site.people | where: "group", "Faculty" | sort: "started" %}
       {% for person in people limit: site.people_limit %}
         {% assign remainder = forloop.index | modulo: 3 %}
         {% if forloop.first == true %}
