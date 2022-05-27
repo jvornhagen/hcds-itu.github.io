@@ -21,7 +21,10 @@
         <p>
           <strong>{{ person.name }}</strong><br>
           <em>{{ person.position }}</em><br>
-          {{ person.email }}
+          {{ person.email }}<br>
+          {% for theme in person.themes %}
+            <div class="badge badge-pill badge-info">{{ theme }}</div>
+          {% endfor %}
         </p>
         <!-- <h2 class="card-title">{{ person.title }}</h2> -->
         <!-- <p class="card-text">{{ person.description }}</p> -->

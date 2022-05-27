@@ -7,5 +7,5 @@ group: Master student
 name: Öykü Yilmaz
 status: Alumni
 position: Master student
-email: ...@itu.dk
+email: oeyi@itu.dk
 ---

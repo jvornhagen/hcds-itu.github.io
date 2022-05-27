@@ -13,7 +13,7 @@ order: 10
 #    <p>Rued Langgaards Vej 7</p>
 #    <p>DK-2300 Copenhagen S, Denmark</p>
 
-news: true  # includes a list of news items
+news: false  # includes a list of news items
 people: false  # includes a list of news items
 select_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
@@ -24,7 +24,52 @@ The Human-Centered Data Science research group (HCDS) focuses on the human facto
 Our research aims to contribute to often overlooked human-centered dimensions of data science such as individual differences, domain-expertise, design implications, and societal impact. Within HCDS we work across several topics, including digital media platforms, information visualization, crowd sourcing, affective computing, behavioral modeling, and societal challenges related to digital infrastructure more broadly.
 
 
-# People
+<div class="People">
+  <h1>Faculty</h1>
+  {% if site.people  %}
+    <div class="container">
+      {% assign people = site.people | where: "group", "Faculty" | sort: "start" %}
+      {% for person in people limit: site.people_limit %}
+        {% assign remainder = forloop.index | modulo: 3 %}
+        {% if forloop.first == true %}
+          <div class="row">
+        {% elsif remainder == 3 %}
+          </div>
+          <div class="row">
+        {% endif %}
+
+        {% include person.html %}
+
+        {% if forloop.last %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <!-- <div class="table-responsive">
+      <table class="table table-sm table-borderless">
+      {% assign people = site.people | reverse %}
+      {% for item in people limit: site.people_limit %}
+        <tr>
+          <th scope="row">{{ item.name }}</th>
+          <td>
+            {% if item.inline %}
+              {{ item.title | remove: '<p>' | remove: '</p>' | emojify }}
+            {% else %}
+              <a class="people-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+            {% endif %}
+          </td>
+        </tr>
+      {% endfor %}
+      </table>
+    </div> -->
+  {% else %}
+    <p>No people so far...</p>
+  {% endif %}
+</div>
+
+
+<!-- # People
 
 **Luca Rossi**  
 *Associate Professor*  
@@ -59,3 +104,4 @@ oeyi@itu.dk
 {% responsive_image path: assets/img/profile-photos/oyku.png class: "img-fluid rounded z-depth-1" alt: "Photo of Öykü Yilmaz" %}
 
 Öykü Yilmaz is a MSc Student in Software Design. She is designing a prototype to improve the self-awareness of Twitter users by visualizing the consequences of their actions when sharing or retweeting a post. The project build on mixed methods and aims both at measuring the actual users’ understanding of the consequences of their network behavior as well as testing several visualization strategies to improve it.
+-->

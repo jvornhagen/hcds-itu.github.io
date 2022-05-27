@@ -1,8 +1,8 @@
 <div class="People">
-  <h1>People</h1>
-  {% if site.people  %}
+  {% assign people = site.people | where: "group", "Faculty" %}
+  {% if people.size != 0 %}
+  <h2>Faculty</h2>
     <div class="container">
-      {% assign people = site.people %}
       {% for person in people limit: site.people_limit %}
         {% assign remainder = forloop.index | modulo: 3 %}
         {% if forloop.first == true %}
@@ -20,24 +20,121 @@
       {% endfor %}
     </div>
 
-    <!-- <div class="table-responsive">
-      <table class="table table-sm table-borderless">
-      {% assign people = site.people | reverse %}
-      {% for item in people limit: site.people_limit %}
-        <tr>
-          <th scope="row">{{ item.name }}</th>
-          <td>
-            {% if item.inline %}
-              {{ item.title | remove: '<p>' | remove: '</p>' | emojify }}
-            {% else %}
-              <a class="people-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-            {% endif %}
-          </td>
-        </tr>
-      {% endfor %}
-      </table>
-    </div> -->
   {% else %}
-    <p>No people so far...</p>
+    <p>No faculty so far...</p>
   {% endif %}
+
+  {% assign people = site.people | where: "group", "PhD" %}
+  {% if people.size != 0 %}
+  <h2>PhD Students</h2>
+    <div class="container">
+      {% for person in people limit: site.people_limit %}
+        {% assign remainder = forloop.index | modulo: 3 %}
+        {% if forloop.first == true %}
+          <div class="row">
+        {% elsif remainder == 3 %}
+          </div>
+          <div class="row">
+        {% endif %}
+
+        {% include person.html %}
+
+        {% if forloop.last %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  {% assign people = site.people | where: "group", "MSc" %}
+  {% if people.size != 0 %}
+  <h2>MSc Students</h2>
+    <div class="container">
+      {% for person in people limit: site.people_limit %}
+        {% assign remainder = forloop.index | modulo: 3 %}
+        {% if forloop.first == true %}
+          <div class="row">
+        {% elsif remainder == 3 %}
+          </div>
+          <div class="row">
+        {% endif %}
+
+        {% include person.html %}
+
+        {% if forloop.last %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  {% assign people = site.people | where: "group", "BSc" %}
+  {% if people.size != 0 %}
+  <h2>BSc Students</h2>
+    <div class="container">
+      {% for person in people limit: site.people_limit %}
+        {% assign remainder = forloop.index | modulo: 3 %}
+        {% if forloop.first == true %}
+          <div class="row">
+        {% elsif remainder == 3 %}
+          </div>
+          <div class="row">
+        {% endif %}
+
+        {% include person.html %}
+
+        {% if forloop.last %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  {% assign people = site.people | where: "status", "Alumni" %}
+  {% if people.size != 0 %}
+  <h2>Alumni</h2>
+    <div class="container">
+      {% for person in people limit: site.people_limit %}
+        {% assign remainder = forloop.index | modulo: 3 %}
+        {% if forloop.first == true %}
+          <div class="row">
+        {% elsif remainder == 3 %}
+          </div>
+          <div class="row">
+        {% endif %}
+
+        {% include person.html %}
+
+        {% if forloop.last %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endif %}
+
+
+<!-- <div class="table-responsive">
+<div class="People">
+  <h1>Faculty</h1>
+  {% if site.people  %}
+  <table class="table table-sm table-borderless">
+  {% assign people = site.people | reverse %}
+  {% for item in people limit: site.people_limit %}
+    <tr>
+      <th scope="row">{{ item.name }}</th>
+      <td>
+        {% if item.inline %}
+          {{ item.title | remove: '<p>' | remove: '</p>' | emojify }}
+        {% else %}
+          <a class="people-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        {% endif %}
+      </td>
+    </tr>
+  {% endfor %}
+  </table>
 </div>
+{% else %}
+  <p>No people so far...</p>
+{% endif %}
+</div>
+-->
