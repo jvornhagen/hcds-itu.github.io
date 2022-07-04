@@ -9,7 +9,7 @@ name: Aske Mottelson
 status: Current
 position: Assistant Professor
 email: asmo@itu.dk
-themes: [Interaction, Affect, XR]
+themes: [Interaction, Affect, XR, Crowdsourcing]
 ---
 
 References
