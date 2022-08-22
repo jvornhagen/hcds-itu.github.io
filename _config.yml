@@ -95,14 +95,17 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # -----------------------------------------------------------------------------
 
 collections:
-  # news:
-  #   defaults:
-  #     layout: post
-  #   output: true
-  #   permalink: /news/:path/
-  # projects:
-  #   output: true
-  #   permalink: /projects/:path/
+  news:
+    defaults:
+      layout: post
+    output: true
+    permalink: /news/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
+  topics:
+    output: true
+    permalink: /topics/:path/
   people:
     output: true
     permalink: /people/:path/

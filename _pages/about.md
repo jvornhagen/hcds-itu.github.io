@@ -13,7 +13,7 @@ order: 10
 #    <p>Rued Langgaards Vej 7</p>
 #    <p>DK-2300 Copenhagen S, Denmark</p>
 
-news: false  # includes a list of news items
+news: true  # includes a list of news items
 people: false  # includes a list of news items
 select_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page

@@ -1,9 +1,9 @@
 ---
 layout: page
-title: research
-permalink: /research-topics/
-description: The research topics that I mainly work on.
-nav: true
+title: topics
+permalink: /topics/
+description:
+nav: false
 horizontal: false
 order: 25
 ---
