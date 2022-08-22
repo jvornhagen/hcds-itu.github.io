@@ -9,7 +9,9 @@ ul {
 //
 
 .table-sm {
-  th,
+  th {
+    width: 12%;
+  }
   td {
     padding-left: 0;
   }
