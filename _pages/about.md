@@ -25,15 +25,17 @@ Our research aims to contribute to often overlooked human-centered dimensions of
 
 
 <div class="People">
-  <h1>Faculty</h1>
+  <h1>People</h1>
   {% if site.people  %}
     <div class="container">
-      {% assign people = site.people | where: "group", "Faculty" | sort: "started" %}
+      {% assign n = site.people  | size %}
+      <!-- the sample: n will randomize order -->
+      {% assign people = site.people | where: "group" | sort: "started" % | sample: n %}
       {% for person in people limit: site.people_limit %}
-        {% assign remainder = forloop.index | modulo: 3 %}
+        {% assign remainder = forloop.index | modulo: 4 %}
         {% if forloop.first == true %}
           <div class="row">
-        {% elsif remainder == 3 %}
+        {% elsif remainder == 4 %}
           </div>
           <div class="row">
         {% endif %}
