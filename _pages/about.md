@@ -24,15 +24,12 @@ The Human-Centered Data Science research group (HCDS) focuses on the human facto
 Our research aims to contribute to often overlooked human-centered dimensions of data science such as individual differences, domain-expertise, design implications, and societal impact. Within HCDS we work across several topics, including digital media platforms, information visualization, crowd sourcing, affective computing, behavioral modeling, and societal challenges related to digital infrastructure more broadly.
 
 
-<div class="People">
+<div id="people" class="People">
   <h1>People</h1>
   {% if site.people  %}
     <div class="container">
       {% assign people = site.people | where: "status", "Current" %}
-      {% assign n = people | size %}
-      <!-- the | sample: n will randomize order -->
-      {% assign select_people = people | sample: n %}
-      {% for person in select_people limit: site.people_limit %}
+      {% for person in people limit: site.people_limit %}
         {% assign remainder = forloop.index | modulo: 4 %}
         {% if forloop.first == true %}
           <div class="row">
@@ -70,6 +67,12 @@ Our research aims to contribute to often overlooked human-centered dimensions of
     <p>No people so far...</p>
   {% endif %}
 </div>
+<script type="text/javascript">
+  var myList = document.querySelector('#people');
+  for (var i = myList.children.length; i >= 0; i--) {
+      myList.appendChild(myList.children[Math.random() * i | 0]);
+  }
+</script>
 
 
 <!-- # People
