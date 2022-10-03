@@ -67,6 +67,17 @@ Our research aims to contribute to often overlooked human-centered dimensions of
     <p>No people so far...</p>
   {% endif %}
 </div>
+<script type="text/javascript">
+// randomize order within each row
+var rows = document.getElementsByClassName('row')
+for(var i = 0; i < rows.length; i++) {
+  var row = rows[i]
+  for (var j = row.children.length; j >= 0; j--) {
+    row.appendChild(row.children[Math.random() * j | 0]);
+  }
+}
+</script>
+
 
 
 <!-- # People
