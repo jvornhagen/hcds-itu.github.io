@@ -30,12 +30,14 @@ Our research aims to contribute to often overlooked human-centered dimensions of
     <div class="container">
       {% assign people = site.people | where: "status", "Current" %}
       {% for person in people limit: site.people_limit %}
-        {% assign remainder = forloop.index | modulo: 3 %}
+        <!-- {% assign remainder = forloop.index | modulo: 3 %} -->
         {% if forloop.first == true %}
           <div class="row">
+        <!-- 
         {% elsif remainder == 3 %}
           </div>
           <div class="row">
+        -->
         {% endif %}
 
         {% include person.html %}
