@@ -4,10 +4,10 @@
   <h2>Faculty</h2>
     <div class="container">
       {% for person in people limit: site.people_limit %}
-        {% assign remainder = forloop.index | modulo: 3 %}
+        {% assign remainder = forloop.index | modulo: 4 %}
         {% if forloop.first == true %}
           <div class="row">
-        {% elsif remainder == 3 %}
+        {% elsif remainder == 4 %}
           </div>
           <div class="row">
         {% endif %}
@@ -29,10 +29,10 @@
   <h2>PhD Students</h2>
     <div class="container">
       {% for person in people limit: site.people_limit %}
-        {% assign remainder = forloop.index | modulo: 3 %}
+        {% assign remainder = forloop.index | modulo: 4 %}
         {% if forloop.first == true %}
           <div class="row">
-        {% elsif remainder == 3 %}
+        {% elsif remainder == 4 %}
           </div>
           <div class="row">
         {% endif %}
@@ -51,10 +51,10 @@
   <h2>MSc Students</h2>
     <div class="container">
       {% for person in people limit: site.people_limit %}
-        {% assign remainder = forloop.index | modulo: 3 %}
+        {% assign remainder = forloop.index | modulo: 4 %}
         {% if forloop.first == true %}
           <div class="row">
-        {% elsif remainder == 3 %}
+        {% elsif remainder == 4 %}
           </div>
           <div class="row">
         {% endif %}
@@ -73,10 +73,10 @@
   <h2>Research Assistants</h2>
     <div class="container">
       {% for person in people limit: site.people_limit %}
-        {% assign remainder = forloop.index | modulo: 3 %}
+        {% assign remainder = forloop.index | modulo: 4 %}
         {% if forloop.first == true %}
           <div class="row">
-        {% elsif remainder == 3 %}
+        {% elsif remainder == 4 %}
           </div>
           <div class="row">
         {% endif %}
@@ -95,10 +95,10 @@
   <h2>BSc Students</h2>
     <div class="container">
       {% for person in people limit: site.people_limit %}
-        {% assign remainder = forloop.index | modulo: 3 %}
+        {% assign remainder = forloop.index | modulo: 4 %}
         {% if forloop.first == true %}
           <div class="row">
-        {% elsif remainder == 3 %}
+        {% elsif remainder == 4 %}
           </div>
           <div class="row">
         {% endif %}
@@ -117,10 +117,10 @@
   <h2>Alumni</h2>
     <div class="container">
       {% for person in people limit: site.people_limit %}
-        {% assign remainder = forloop.index | modulo: 3 %}
+        {% assign remainder = forloop.index | modulo: 4 %}
         {% if forloop.first == true %}
           <div class="row">
-        {% elsif remainder == 3 %}
+        {% elsif remainder == 4 %}
           </div>
           <div class="row">
         {% endif %}
