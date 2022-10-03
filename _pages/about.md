@@ -30,7 +30,7 @@ Our research aims to contribute to often overlooked human-centered dimensions of
     <div class="container">
       {% assign n = site.people  | size %}
       <!-- the sample: n will randomize order -->
-      {% assign people = site.people | where: "group" | sort: "started" % | sample: n %}
+      {% assign people = site.people | where: "group" | sort: "started" | sample: n %}
       {% for person in people limit: site.people_limit %}
         {% assign remainder = forloop.index | modulo: 4 %}
         {% if forloop.first == true %}
