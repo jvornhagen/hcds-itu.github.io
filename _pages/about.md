@@ -28,10 +28,11 @@ Our research aims to contribute to often overlooked human-centered dimensions of
   <h1>People</h1>
   {% if site.people  %}
     <div class="container">
-      {% assign n = site.people  | size %}
-      <!-- the sample: n will randomize order -->
-      {% assign people = site.people | where: "group" | sort: "started" | sample: n %}
-      {% for person in people limit: site.people_limit %}
+      {% assign people = site.people | where: "status", "Current" %}
+      {% assign n = people | size %}
+      <!-- the | sample: n will randomize order -->
+      {% assign select_people = people | sample: n %}
+      {% for person in select_people limit: site.people_limit %}
         {% assign remainder = forloop.index | modulo: 4 %}
         {% if forloop.first == true %}
           <div class="row">
