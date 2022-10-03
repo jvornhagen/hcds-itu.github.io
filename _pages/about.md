@@ -25,19 +25,17 @@ Our research aims to contribute to often overlooked human-centered dimensions of
 
 
 <div class="People">
-  <h1>People</h1>
+  <h1>Faculty</h1>
   {% if site.people  %}
     <div class="container">
-      {% assign people = site.people | where: "status", "Current" %}
+      {% assign people = site.people | where: "group", "Faculty" | sort: "started" %}
       {% for person in people limit: site.people_limit %}
-        <!-- {% assign remainder = forloop.index | modulo: 3 %} -->
+        {% assign remainder = forloop.index | modulo: 4 %}
         {% if forloop.first == true %}
           <div class="row">
-        <!-- 
-        {% elsif remainder == 3 %}
+        {% elsif remainder == 4 %}
           </div>
           <div class="row">
-        -->
         {% endif %}
 
         {% include person.html %}
@@ -69,12 +67,6 @@ Our research aims to contribute to often overlooked human-centered dimensions of
     <p>No people so far...</p>
   {% endif %}
 </div>
-<script type="text/javascript">
-  var myList = document.querySelector('.row');
-  for (var i = myList.children.length; i >= 0; i--) {
-      myList.appendChild(myList.children[Math.random() * i | 0]);
-  }
-</script>
 
 
 <!-- # People
