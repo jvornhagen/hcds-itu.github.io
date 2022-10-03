@@ -27,7 +27,7 @@ Our research aims to contribute to often overlooked human-centered dimensions of
 <div class="People">
   <h1>People</h1>
   {% if site.people  %}
-    <div id="people_container" class="container">
+    <div class="container">
       {% assign people = site.people | where: "status", "Current" %}
       {% for person in people limit: site.people_limit %}
         {% assign remainder = forloop.index | modulo: 3 %}
@@ -68,7 +68,7 @@ Our research aims to contribute to often overlooked human-centered dimensions of
   {% endif %}
 </div>
 <script type="text/javascript">
-  var myList = document.querySelector('#people_container');
+  var myList = document.querySelector('.row');
   for (var i = myList.children.length; i >= 0; i--) {
       myList.appendChild(myList.children[Math.random() * i | 0]);
   }
