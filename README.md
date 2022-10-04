@@ -1,3 +1,47 @@
+# How to Website
+
+Usefull information on how to use this website. 
+
+## The Basics in Brief
+ *	The site is built with 
+ *	[Jekyll](https://www.taniarascia.com/make-a-static-website-with-jekyll/) (a static site generator that runs on the Ruby programming language) 
+ *	The site uses the [al-folio](https://jekyll-themes.com/al-folio/) theme for academics
+ *	The site is hosted on the [hcds-itu.github.io](https://github.com/hcds-itu/hcds-itu.github.io/) repository
+
+## Quick Step-Step-Guides
+These guides should help with quickly taking care of the reoccuring changes that need to be made for the website to stay up to date and reflect the day-to-day in the reserach group.
+
+### Adding a Publication
+1. Go to '_bibliography/papers.bib'
+2.	Click on the ‘Edit this file’-button (on the top right corner and has a pencil logo).
+3.	Add the publication's bibtex to the list
+4.	Commit changes
+5.	When the page has updated (takes a few minutes), you find the new entry on the [publications site](https://hcds-itu.github.io/publications/)
+6.	(Optional): To make a publication-pdf accessible through the website upload the pdf named [bibtex-id].pdf into the folder assets/publications
+7.	(Optional): To illustrate your publication with an image upload the image named [bibtex-id].jpg (alternatively: .gif, .png, etc.) to the folder 'assets/publications'
+
+### Adding People
+
+1.	Go to folder '_assts/img/profile-photos' and upload a black-and-white image with a square ratio of the person you want to add to the folder by clicking on ‘Add file’ > ‘Create new file’. (Remember the precise spelling of the image file including the file-type) 
+2.	Go to the folder '_people' and open the .md (markdown file) from one of the people listed here. 
+3.	On the top right of the box click on ‘Raw’ to access the profile code
+4.	Copy the code
+5.	Go back to the '_people-folder' and under ‘Add file’ (top right) choose ‘Create new file’
+6.	Name the new file according to the person you are adding [lastname].md and paste the copied code into the code box. 
+7.	Amend the end of the path under img: with the name of the image (including file type) you uploaded in step 1.
+8.	Replace the other entries so that the profile describes the person you are adding. 'Group' can be ‘Faculty’, ’PhD Student’, ‘Research Assistant’, or  ‘Master Student’ 
+9.	Commit the new file and wait for the website to do its magic (You can see when it is done processing your changes in the [Actions-tab](https://github.com/hcds-itu/hcds-itu.github.io/actions)
+
+### Connecting Profiles with Publications
+
+1.	Go to '_data/coauhors.yml'
+2.	Create an entry for the person you want to connect 
+3.	Add all the firstnames with which they might be listed in bibtex-entries
+4.	Add the url to their people-page
+5.	Commit the changes 
+
+
+
 # al-folio
 
 [![build status](https://travis-ci.org/alshedivat/al-folio.svg?branch=master)](https://travis-ci.org/alshedivat/al-folio)
