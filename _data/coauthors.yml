@@ -9,3 +9,7 @@ Rossi:
 Knudsen:
   - firstname: ["Søren", "S."]
     url: /people/knudsen
+    
+Mekler:
+  - firstname: ["Elisa D", "Elisa", "E."]
+    url: /people/mekler
