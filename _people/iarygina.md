@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Olga Iarygina
-description: TBD
+description: Olga studies the replication crisis and open science in HCI, in particular in XR. She is trying to explore the extent of the replication crisis in XR and establish the applicability of initiatives that have improved scientific practice in other research areas for XR research. 
 img: assets/img/profile-photos/olga-square.jpg
 group: PhD
 started: 2022-10-01
