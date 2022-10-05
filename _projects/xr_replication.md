@@ -19,7 +19,7 @@ This project will therefore explore the extent of the replicability crisis in XR
 The project is a joint project with [Department of Computer Science at University of Copenhagen](http://diku.dk), funded by the [Pioneer Centre for AI](https://www.aicentre.dk/), DNRF grant number P1.
 
 <div class="row">
-    {% for researcher in researchers %}
+    {% for researcher in page.researchers %}
         {% assign person = site.people | find: "email", researcher %}
         {% include person.html %}
     {% endfor %}
