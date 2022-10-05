@@ -12,11 +12,11 @@ Extended reality (XR) research continues to produce breakthroughs in interaction
  
 As in other sciences, questions about replicability and robustness of empirical findings are increasingly being raised. Despite XR as a technological medium is exceptionally well suited for cross-lab replications, initiatives that are being implemented in other behavioral sciences, such as open source, open data, preregistration, multi-site studies, adversarial collaboration, and many others, are rarely used in XR research.
  
-Some of the best known findings from XR research draws on inspiration from psychology, such as avatar embodiment, social biases, and therapy. As psychology as a science has been particularly criticized for sloppy research practices and lack of successful replications (Open Science Collaboration, Science, 2015), it further emphasizes the need for improved scientific practices in XR research. 
+Some of the most well known findings from XR research draws on inspiration from psychology, such as avatar embodiment, social biases, and therapy. As psychology as a science has been particularly criticized for lack of successful replications (Open Science Collaboration, Science, 2015), it further emphasizes the need for systematic investigations of scientific practices in XR research. 
  
-This project will systematically explore the extent of the replicability crisis in XR research. The project will establish the applicability of initiatives, that have improved scientific practice in other research areas, for XR research. As a result, the project will lead an international open science initiative to make both previous and future XR research more robust.
+This project will therefore explore the extent of the replicability crisis in XR research. The project will establish the applicability of initiatives, that have improved scientific practice in other research areas, for XR research. As a result, the project will lead an international open science initiative to make both previous and future XR research more robust.
 
-The project is funded by Pioneer Centre for AI, DNRF grant number P1.
+The project is a joint project with [Department of Computer Science at University of Copenhagen](http://diku.dk), funded by the [Pioneer Centre for AI](https://www.aicentre.dk/), DNRF grant number P1.
 
 <div class="row">
     {% for researcher in researchers %}
