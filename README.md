@@ -10,6 +10,16 @@ Usefull information on how to use this website.
 ## Quick Step-Step-Guides
 These guides should help with quickly taking care of the reoccuring changes that need to be made for the website to stay up to date and reflect the day-to-day in the reserach group.
 
+### Adding News
+1. Go to the folder '_news'
+2. Open an older entry
+3. Click on 'Raw' in the top right corner to access the entry's code and copy it
+4. Go back to the folder'_news' and click 'Add file' > 'Create new file'
+5. Name the new file according to the date of the file: 'YYYY-MM-DD.md'
+6. Paste the copied code into the text-box and replace the date (line 3) with the date of your news
+7. Delete the text body of the article you just pasted and write your news article
+8. Write a commit summary in the text box below and commit your changes
+
 ### Adding a Publication
 1. Go to '_bibliography/papers.bib'
 2.	Click on the ‘Edit this file’-button (on the top right corner and has a pencil logo).
