@@ -1,10 +1,11 @@
 ---
 layout: page
 title: Replication crisis in Extended Reality
-description: The project is funded by Pioneer Centre for AI, DNRF grant number P1
+description: Exploring the extent of replicability in XR
 img: assets/img/template/12.jpg
 importance: 1
 category: research
+researchers: [olgl@itu.dk, asmo@itu.dk]
 ---
 
 Extended reality (XR) research continues to produce breakthroughs in interaction techniques, discover remarkable behavioral effects of acting with virtual bodies and environments, and demonstrate its ability to move traditional laboratory experiments  online. In consequence, XR research has a growing relevance for many scientific communities with vast empirical and practical implications.
@@ -15,8 +16,11 @@ Some of the best known findings from XR research draws on inspiration from psych
  
 This project will systematically explore the extent of the replicability crisis in XR research. The project will establish the applicability of initiatives, that have improved scientific practice in other research areas, for XR research. As a result, the project will lead an international open science initiative to make both previous and future XR research more robust.
 
+The project is funded by Pioneer Centre for AI, DNRF grant number P1.
+
 <div class="row">
-    {% for person in people | where_exp:"item", "item.email == asmo@itu.dk or item.email == olgl@itu.dk" %}
+    {% for researcher in researchers %}
+        {% assign person = site.people | find: "email", researcher %}
         {% include person.html %}
     {% endfor %}
 </div>
