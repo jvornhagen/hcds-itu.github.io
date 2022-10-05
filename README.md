@@ -3,8 +3,7 @@
 Usefull information on how to use this website. 
 
 ## The Basics in Brief
- *	The site is built with 
- *	[Jekyll](https://www.taniarascia.com/make-a-static-website-with-jekyll/) (a static site generator that runs on the Ruby programming language) 
+ *	The site is built with [Jekyll](https://www.taniarascia.com/make-a-static-website-with-jekyll/) (a static site generator that runs on the Ruby programming language) 
  *	The site uses the [al-folio](https://jekyll-themes.com/al-folio/) theme for academics
  *	The site is hosted on the [hcds-itu.github.io](https://github.com/hcds-itu/hcds-itu.github.io/) repository
 
