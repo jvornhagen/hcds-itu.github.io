@@ -16,7 +16,7 @@ Some of the most well known findings from XR research draws on inspiration from 
  
 This project will therefore explore the extent of the replicability crisis in XR research. The project will establish the applicability of initiatives, that have improved scientific practice in other research areas, for XR research. As a result, the project will lead an international open science initiative to make both previous and future XR research more robust.
 
-The project is a joint project with [Department of Computer Science at University of Copenhagen](http://diku.dk), funded by the [Pioneer Centre for AI](https://www.aicentre.dk/), DNRF grant number P1.
+The project is joint with [Department of Computer Science at University of Copenhagen](https://di.ku.dk/english/research/human-centred-computing/), funded by the [Pioneer Centre for AI](https://www.aicentre.dk/), DNRF grant number P1.
 
 <div class="row">
     {% for researcher in page.researchers %}
