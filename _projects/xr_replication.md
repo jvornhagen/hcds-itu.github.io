@@ -18,7 +18,8 @@ This project will systematically explore the extent of the replicability crisis 
 <div class="row">
     {% for person in people | where_exp:"item", "item.email == asmo@itu.dk or item.email == olgl@itu.dk" %}
         {% if forloop.first == true %}
-        {% include person.html %}
+            {% include person.html %}
+        {% endif %}
     {% endfor %}
 </div>
 <div class="caption">
