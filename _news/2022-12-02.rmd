@@ -1,8 +1,0 @@
----
-layout: post
-date: 2022-12-02 12:00:00+0100
-inline: false
-title: We're happy to welcome a new PhD student into our group: Luigi Arminio
----
-
-Luigi will work under the supervision of Ass. Prof. Luca Rossi in the context of the <a href="https://chanse.org/polarvis/">PolarVis</a> - EU CHANSE project. Luigi will study the online propagation of climate visual narratives.
