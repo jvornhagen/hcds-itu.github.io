@@ -32,8 +32,9 @@ ideas and to collaborate. Additionally, we occasionally organize talks and other
 focus areas of the lab.
 
 Organisation of extracurricular activities
+*	Weekly data hacking activities hosted by our [student assistant](mailto:hdilab-datahacking@o365team.itu.dk). All students are welcome!
 *	Guest lectures by visiting researchers
 *	Company presentations. For example, we have continual dialogue with Inviso – a company specializing in data analysis services with a strong 
   focus on visualization – to create ways for them to interact with students for mutual benefit.
   
-For more information, please contact [HDIlab](mailto:soekn@itu.dk) (we should probably get an email address for the lab. How about hdilab@itu.dk?)
+For more information, please contact [HDIlab](mailto:hdilab@o365team.itu.dk).
