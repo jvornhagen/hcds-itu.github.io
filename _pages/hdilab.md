@@ -9,7 +9,7 @@ order: 50
 
 The Human-Data Interaction Lab is a virtual ITU lab comprised of about fifteen faculty members, Postdocs, PhD students, and Master students. 
 Although mostly a virtual lab, we occupy the small physical presence between our offices situated in the 4D corridor in the ITU main building. 
-<!--In addition to our corridor space, the lab has access to a 3x3 meters <!--3.06m x 2.85m--> room (4D29), which is dedicated for studies and 
+<!-- In addition to our corridor space, the lab has access to a 3x3 meters (3.06m x 2.85m room) (4D29), which is dedicated for studies and 
 study setups with focus on Human-Data Interaction. -->
 
 The lab allows students and faculty to meet to discuss and collaborate on topics related to how people work with data, the technologies 
@@ -36,4 +36,4 @@ Organisation of extracurricular activities
 *	Company presentations. For example, we have continual dialogue with Inviso – a company specializing in data analysis services with a strong 
   focus on visualization – to create ways for them to interact with students for mutual benefit.
   
-For more information, please contact...
+For more information, please contact [HDIlab](mailto:soekn@itu.dk) (we should probably get an email address for the lab. How about hdilab@itu.dk?)
