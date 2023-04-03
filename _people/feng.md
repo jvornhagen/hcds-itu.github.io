@@ -5,7 +5,7 @@ description: Feng is part of the Theorycraft ERC grant coordinated by Elisa Mekl
 img: assets/img/profile-photos/feng.png
 group: Postdoc
 started: 2023-01-01
-name: Feng feng
+name: Feng Feng
 status: Current
 position: Postdoc
 email: fefe@itu.dk
