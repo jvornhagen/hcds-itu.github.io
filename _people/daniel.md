@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Daniel Bennett
-description: Daniel's research focuses on cognitive scientific approaches in HCI. He is part of the Theorycraft ERC grant coordinated by Elisa Mekler. 
+description: Daniel is part of the Theorycraft ERC grant coordinated by Elisa Mekler. His research focuses on cognitive scientific approaches in HCI.
 img: assets/img/profile-photos/daniel.png
 group: Postdoc
 started: 2023-01-01
