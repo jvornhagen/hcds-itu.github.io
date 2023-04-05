@@ -11,3 +11,9 @@ position: PhD Student
 email: javo@itu.dk
 themes: [CHI, emotions, reproducibility]
 ---
+
+References
+----------
+<div class="publications">
+  {% bibliography --query @*[author ~= Vornhagen] %}
+</div>
