@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://hcds.itu.dk/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hcds.itu.dk/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-04-05T12:51:59+00:00</updated><id>https://hcds.itu.dk/feed.xml</id><title type="html">Human-Centered Data Science @ IT University of Copenhagen</title><subtitle>Academic site for the Human-Centered Data Science research group at the Digital Design Department, IT University of Copenhagen.
+</subtitle><entry><title type="html">Do we understand networks?</title><link href="https://hcds.itu.dk/posts/2022-04-19-networks/" rel="alternate" type="text/html" title="Do we understand networks?" /><published>2022-04-19T11:04:00+00:00</published><updated>2022-04-19T11:04:00+00:00</updated><id>https://hcds.itu.dk/posts/networks</id><content type="html" xml:base="https://hcds.itu.dk/posts/2022-04-19-networks/"><![CDATA[<p>We live most of our online life within networks of connections.
+  Yet, some of network dynamics or properties (such as propagation, skewed degree distribution or simply network distances) can be hard to grasp based on our offline experience.
+  Can data visualization and data design support users in their understanding of network dynamics?
+  Can data design inform Twitter users’ perception of information reach and perhaps even increase their understanding of it?
+  <a rel="noreferrer noopener" href="https://www.linkedin.com/in/%C3%B6yk%C3%BC-y-4118a0152/" target="_blank">Öykü Yilmaz</a> looked into this problem for her MSc Thesis in Software Design.
+  Twitter is an interesting platform to study users’ understanding of network propagation due to the simple nature of Twitter’s retweets.</p>
+
+<p>As a Twitter user, you know which users retweet, like or reply your Tweets, you might know the exact amount of impressions for your content, but you do not know how many followers your retweeter’s have, which is the potential audience of your content once it gets out out your direct network.
+  This project used Twitter API to confront Twitter users with the potential audience of their messages before they tweeted.</p>
+
+<div class="row mt-3">
+      <div class="col-sm mt-3 mt-md-0">
+          <picture>
+    
+    <source media="(max-width: 480px)" srcset="/assets/resized/oyku_thesis_sketches-480x292.webp" />
+    
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/posts/oyku_thesis_sketches.webp" alt="" />
+</picture>
+
+      </div>
+      <div class="col-sm mt-3 mt-md-0">
+          <picture>
+    
+    <source media="(max-width: 480px)" srcset="/assets/resized/oyku_thesis_prototype-480x231.webp" />
+    
+    <source media="(max-width: 800px)" srcset="/assets/resized/oyku_thesis_prototype-800x385.webp" />
+    
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/posts/oyku_thesis_prototype.webp" alt="" />
+</picture>
+
+      </div>
+  </div>
+<div class="caption">
+      Sketches and digital prototype.
+  </div>
+
+<p>This was done through a website prototype that, when provided with the Twitter username, would display a visualization of the potential audience based on users’ recent activities.
+  The prototype was tested on Twitter users with pre-exposure surveys and follow-up interviews.
+  The results show how the visual representation of their potential reach affects the participants’ decision about “what to tweet”.
+  Some participants considered changing their Tweets after testing the prototype while others declared to have developed a better understanding of their possible reach.
+  While these are preliminary results, they show how visualization tools can have a positive effect on Twitter users’ understanding of their online actions.</p>]]></content><author><name></name></author><category term="research" /><category term="thesis" /><category term="master" /><category term="networks" /><category term="networks" /><summary type="html"><![CDATA[We live most of our online life within networks of connections. Yet, some of network dynamics or properties (such as propagation, skewed degree distribution or simply network distances) can be hard to grasp based on our offline experience. Can data visualization and data design support users in their understanding of network dynamics? Can data design inform Twitter users’ perception of information reach and perhaps even increase their understanding of it? Öykü Yilmaz looked into this problem for her MSc Thesis in Software Design. Twitter is an interesting platform to study users’ understanding of network propagation due to the simple nature of Twitter’s retweets.]]></summary></entry></feed>
