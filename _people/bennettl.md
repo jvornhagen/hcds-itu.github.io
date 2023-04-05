@@ -11,3 +11,8 @@ position: Postdoc
 email: daben@itu.dk
 themes: [CHI, phenomenology]
 ---
+References
+----------
+<div class="publications">
+  {% bibliography --query @*[author ~= bennett] %}
+</div>
