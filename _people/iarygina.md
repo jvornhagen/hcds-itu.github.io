@@ -12,7 +12,7 @@ email: olgl@itu.dk
 themes: [XR, Meta-Science, HCI]
 ---
 
-References
+Publications
 ----------
 <div class="publications">
   {% bibliography --query @*[author ~= Iarygina] %}

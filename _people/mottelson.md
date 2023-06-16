@@ -12,7 +12,7 @@ email: asmo@itu.dk
 themes: [Interaction, Affect, XR, Crowdsourcing]
 ---
 
-References
+Publications
 ----------
 <div class="publications">
   {% bibliography --query @*[author ~= Mottelson] %}

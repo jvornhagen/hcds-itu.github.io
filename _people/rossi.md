@@ -12,7 +12,7 @@ email: lucr@itu.dk
 themes: [Networks, Polarization, Fake News]
 ---
 
-References
+Publications
 ----------
 <div class="publications">
   {% bibliography --query @*[author ~= Rossi] %}

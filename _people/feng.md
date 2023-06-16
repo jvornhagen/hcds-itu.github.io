@@ -11,7 +11,7 @@ position: Postdoc
 email: fefe@itu.dk
 themes: [CHI, embodiment]
 ---
-References
+Publications
 ----------
 <div class="publications">
   {% bibliography --query @*[author ~= feng] %}

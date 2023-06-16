@@ -12,7 +12,7 @@ email: soekn@itu.dk
 themes: [Visualization, Interaction, Design, Collaboration]
 ---
 
-References
+Publications
 ----------
 <div class="publications">
   {% bibliography --query @*[author ~= Knudsen] %}

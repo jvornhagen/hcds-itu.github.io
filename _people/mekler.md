@@ -12,7 +12,7 @@ email: elme@itu.dk
 themes: [User Experience, Games, Interaction, Meta-Science]
 ---
 
-References
+Publications
 ----------
 <div class="publications">
   {% bibliography --query @*[author ~= Mekler] %}

@@ -12,7 +12,7 @@ email: ropi@itu.dk
 themes: [HCI]
 ---
 
-References
+Publications
 ----------
 <div class="publications">
   {% bibliography --query @*[author ~= Piitulainen] %}

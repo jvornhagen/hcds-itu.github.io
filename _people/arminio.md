@@ -12,7 +12,7 @@ email: luia@itu.dk
 themes: [Networks, Social Media, Polarization]
 ---
 
-References
+Publications
 ----------
 <div class="publications">
   {% bibliography --query @*[author ~= arminio] %}
