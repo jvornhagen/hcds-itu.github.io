@@ -11,5 +11,29 @@ Knudsen:
     url: /people/knudsen
     
 Mekler:
-  - firstname: ["Elisa D", "Elisa", "E."]
+  - firstname: ["Elisa D", "Elisa D.", "Elisa", "E."]
     url: /people/mekler
+
+Bennett:
+  - firstname: ["Dan", "Daniel"]
+    url: /people/bennett
+    
+Feng:
+  - firstname: ["Feng"]
+    url: /people/feng
+    
+Piitulainen:
+  - firstname: ["Roosa"]
+    url: /people/piitulainen
+    
+Iargina:
+  - firstname: ["Olga"]
+    url: /people/iargina
+    
+Arminio:
+  - firstname: ["Luigi"]
+    url: /people/arminio
+  
+Vornhagen:
+  - firstname: ["Jan B.", "Jan Benjamin", "Jan"]
+    url: /people/vornhagen
