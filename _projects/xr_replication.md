@@ -2,10 +2,11 @@
 layout: page
 title: Replication crisis in Extended Reality
 description: Exploring the extent of replicability in XR
-img: assets/img/template/12.jpg
+img: assets/img/template/2.jpg
 importance: 1
 category: research
 researchers: [olgl@itu.dk, asmo@itu.dk]
+published: FALSE
 ---
 
 Extended reality (XR) research continues to produce breakthroughs in interaction techniques, discover remarkable behavioral effects of acting with virtual bodies and environments, and demonstrate its ability to move traditional laboratory experiments  online. In consequence, XR research has a growing relevance for many scientific communities with vast empirical and practical implications.
@@ -18,6 +19,7 @@ This project will therefore explore the extent of the replicability crisis in XR
 
 The project is joint with [Department of Computer Science at University of Copenhagen](https://di.ku.dk/english/research/human-centred-computing/), funded by the [Pioneer Centre for AI](https://www.aicentre.dk/), DNRF grant number P1.
 
+<h3> People </h3>
 <div class="row">
     {% for researcher in page.researchers %}
         {% assign person = site.people | find: "email", researcher %}

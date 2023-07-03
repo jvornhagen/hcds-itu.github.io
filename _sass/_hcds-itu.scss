@@ -37,3 +37,21 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
 }
 //
+
+.container {
+  max-width: 1100px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.card-title {
+  word-break: keep-all;
+  font-size: x-large;
+}
+
+.grid-container {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: 25% 75%;
+  padding: 5px 5px 20px 0px;
+}

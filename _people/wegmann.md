@@ -9,4 +9,6 @@ name: David Wegmann
 status: Current
 position: Research Assistant
 email: davw@itu.dk
+themes: [Communication, Cognition, Misinformation]
+showImg: TRUE
 ---

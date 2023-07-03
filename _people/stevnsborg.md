@@ -9,4 +9,6 @@ name: Emil Stevnsborg
 status: Current
 position: Programmer
 email: emist@itu.dk
+themes: [Generative-AI, HPC, Programming]
+showImg: TRUE
 ---

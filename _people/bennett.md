@@ -10,6 +10,7 @@ status: Current
 position: Postdoc
 email: daben@itu.dk
 themes: [CHI, phenomenology]
+showImg: TRUE
 ---
 
 Publications

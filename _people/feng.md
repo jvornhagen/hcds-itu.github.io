@@ -10,6 +10,7 @@ status: Current
 position: Postdoc
 email: fefe@itu.dk
 themes: [CHI, embodiment]
+showImg: TRUE
 ---
 Publications
 ----------

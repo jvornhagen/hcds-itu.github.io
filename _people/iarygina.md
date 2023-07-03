@@ -10,6 +10,7 @@ status: Current
 position: PhD student
 email: olgl@itu.dk
 themes: [XR, Meta-Science, HCI]
+showImg: TRUE
 ---
 
 Publications

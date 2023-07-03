@@ -10,6 +10,7 @@ status: Current
 position: PhD Student
 email: javo@itu.dk
 themes: [CHI, Meta-Science, Open Science]
+showImg: TRUE
 ---
 
 Publications

@@ -10,6 +10,7 @@ status: Current
 position: PhD student
 email: luia@itu.dk
 themes: [Networks, Social Media, Polarization]
+showImg: TRUE
 ---
 
 Publications

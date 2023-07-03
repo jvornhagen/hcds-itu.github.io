@@ -10,6 +10,7 @@ status: Current
 position: Associate Professor
 email: lucr@itu.dk
 themes: [Networks, Polarization, Fake News]
+showImg: TRUE
 ---
 
 Publications

@@ -10,6 +10,7 @@ status: Current
 position: Assistant Professor
 email: soekn@itu.dk
 themes: [Visualization, Interaction, Design, Collaboration]
+showImg: TRUE
 ---
 
 Publications

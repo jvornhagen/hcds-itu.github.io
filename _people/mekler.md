@@ -10,6 +10,7 @@ status: Current
 position: Assistant Professor
 email: elme@itu.dk
 themes: [User Experience, Games, Interaction, Meta-Science]
+showImg: TRUE
 ---
 
 Publications

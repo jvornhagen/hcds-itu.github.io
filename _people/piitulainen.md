@@ -10,6 +10,7 @@ status: Current
 position: PhD student
 email: ropi@itu.dk
 themes: [HCI]
+showImg: TRUE
 ---
 
 Publications

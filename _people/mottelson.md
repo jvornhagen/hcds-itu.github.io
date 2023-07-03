@@ -10,6 +10,7 @@ status: Current
 position: Assistant Professor
 email: asmo@itu.dk
 themes: [Interaction, Affect, XR, Crowdsourcing]
+showImg: TRUE
 ---
 
 Publications

@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
-nav: false
-display_categories: [research, fun]
-horizontal: false
+description: Ongoing and completed projects at HCDS
+nav: true
+display_categories: [research]
+horizontal: true
 order: 30
 ---
 <div class="projects">

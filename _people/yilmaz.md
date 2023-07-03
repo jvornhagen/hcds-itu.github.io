@@ -10,4 +10,5 @@ name: Öykü Yilmaz
 status: Alumni
 position: Master student
 email: oeyi@itu.dk
+showImg: TRUE
 ---
