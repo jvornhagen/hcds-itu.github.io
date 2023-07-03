@@ -51,7 +51,7 @@ Our research aims to contribute to often overlooked human-centered dimensions of
 <div class="People">
   <h1>People</h1>
   {% if site.people  %}
-    <div class="container" style="width:75%">
+    <div class="container">
       <!-- {% assign people = site.people | where: "group", "Faculty" | sort: "started" %} -->
       {% assign people = site.people | where: "status", "Current" %}
       {% for person in people limit: site.people_limit %}

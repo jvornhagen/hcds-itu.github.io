@@ -1,6 +1,7 @@
 ---
 layout: page
 title: people
+description: The former and current members of the HCDS group.
 permalink: /people/
 # description: Human-Centered Data Science @ IT University of Copenhagen.
 nav: true
