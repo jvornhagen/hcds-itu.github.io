@@ -27,7 +27,7 @@ These guides should help with quickly taking care of the reoccuring changes that
 4.	Commit changes
 5.	When the page has updated (takes a few minutes), you find the new entry on the [publications site](https://hcds-itu.github.io/publications/)
 6.	(Optional): To make a publication-pdf accessible through the website upload the pdf named [bibtex-id].pdf into the folder assets/publications
-7.	(Optional): To illustrate your publication with an image upload the image named [bibtex-id].jpg (alternatively: .gif, .png, etc.) to the folder 'assets/publications'
+7.	(Optional): To illustrate your publication with an image upload the image named [bibtex-id].jpg (alternatively: .gif, .png, etc.) to the folder `assets/publications`
 
 ### Adding People
 
